@@ -2,5 +2,6 @@ hello
 hello_dc/hello_dc
 vectoradd/vectoradd
 vectoradd_par/vectoradd_par
+vectoradd_unified/vectoradd_unified
 *.out
 *.err

@@ -6,9 +6,9 @@ all: hello hello_dc/hello_dc vectoradd/vectoradd vectoradd_par/vectoradd_par vec
 
 clean:
 	find ./ -name '*.o' -o -name '*.out' -o -name '*.err' | xargs -r rm
-	rm hello
-	rm hello_dc/hello_dc
-	rm vectoradd/vectoradd
-	rm vectoradd_par/vectoradd_par
-	rm vectoradd_unified/vectoradd_unified
+	rm -f hello
+	rm -f hello_dc/hello_dc
+	rm -f vectoradd/vectoradd
+	rm -f vectoradd_par/vectoradd_par
+	rm -f vectoradd_unified/vectoradd_unified
 
